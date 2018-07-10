@@ -5,3 +5,8 @@ def fizzbuzz(i)
       return "Buzz"
     elsif i % 3 == 0 && i % 5 == 0
         return "FizzBuzz"
+      else i % 3 != 0 && i % 5 != 0
+        return nil
+
+
+      end
